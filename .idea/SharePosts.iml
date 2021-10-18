@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ws1/src" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ws1/vendor/firebase/php-jwt" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
