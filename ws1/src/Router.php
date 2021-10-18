@@ -70,7 +70,7 @@ class Router
         return $response;
     }
 
-    private function matchRegex(string $uri): array
+    private function matchRegex($uri): array
     {
         $routes = [];
         foreach ($this::ROUTES as $key => $item) {
