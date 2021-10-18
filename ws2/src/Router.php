@@ -11,10 +11,6 @@ class Router
         'posts/delete/' => ['controller' => 'Posts', 'route' => 'postsDelete', 'methods' => ['DELETE'], 'regex' => '/^posts\/delete\/\d+$/'],
         'posts/list' => ['controller' => 'Posts', 'route' => 'postsList', 'methods' => ['GET']],
     ];
-//    private const ROUTES = [
-//        'login' => ['controller' => 'Security', 'route' => 'login', 'methods' => ['POST', 'OPTIONS']],
-//        'register' => ['controller' => 'Security', 'route' => 'register', 'methods' => ['POST', 'OPTIONS']],
-//    ];
 
     public function handle($request)
     {
